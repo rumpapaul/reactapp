@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+
+.heading{
+    margin: 0 0 0 25vw;
+}
+.navbar-light{
+    background-color: white;
+}
+.navbar-dark{
+    background-color: #031729;
+    color: white;
+}
+.navbar-red{
+    background-color: rgba(111, 59, 59, 0.294);
+}
+.navbar-green{
+    background-color: rgba(27, 33, 28, 0.402);
+}
+.navbar-violet{
+    background-color: rgba(152, 100, 149, 0.21);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color-white{
+    color: white;
+}
+.themecolor{
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+    height: 6vh;
+    margin: 0vh 0.5vw 4vh 0.5vw;
+}
+.color1{
+    color: red;
+}
+.color2{
+    color: green;
+}
+.color3{
+    color:violet;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#red{
+    accent-color: red;
+    margin: 1vw;
+    
 }
+#green{
+    accent-color: green;
+    margin: 1vw;
+}
+#violet{
+    accent-color: violet;
+    margin: 1vw;
+}
+.text-light{
+    color: white;
+}
+.text-dark{
+    color: black;
+}
+.btn-dark{
+    background-color: rgba(7, 87, 248, 0.987);
+    color: white;
+    
+    margin: 1vh 1vw 1vh 1vw;
+    border: 2px solid rgb(9, 57, 248) ;
+    border-radius: 1vw;
+}
+.btn-light{
+    background-color: rgba(7, 87, 248, 0.987);
+    color: white;
+    
+    margin: 1vh 1vw 1vh 1vw;
+    border: 2px solid rgb(9, 57, 248) ;
+    border-radius: 1vw;
+}
+.btn-red{
+    background-color: rgb(149, 29, 29);
+color: white;
+    
+    margin: 1vh 1vw 1vh 1vw;
+    border: 2px solid rgb(149, 29, 29);
+    border-radius: 1vw;
+}
+.btn-green{
+    background-color: rgb(39, 203, 69);
+color: white;
+    
+    margin: 1vh 1vw 1vh 1vw;
+    border: 2px solid rgb(29, 149, 51) ;
+    border-radius: 1vw;
+}
+.btn-violet{
+    background-color: rgb(149, 29, 139);
+    color: white;
+    
+    margin: 1vh 1vw 1vh 1vw;
+    border: 2px solid rgb(149, 29, 139) ;
+    border-radius: 1vw;
+}
+.button:hover{
+    background-color: rgb(138, 142, 187);
+    border: 2px solid  rgb(138, 142, 187) ;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.prev{
+    background-color: rgba(223, 152, 126, 0.593);
+    max-height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2vw;
+    text-align: center;
+    padding: 1vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textform-dark{
+    background-color:#042743;
+    color: white;
 }
+.textform-light{
+    background-color: white;
+    color: black;
+}
+    .textform-red{
+        background-color:rgba(218, 91, 91, 0.469);
+      color: white;
+    }
+    .textform-green{
+        background-color: rgba(79, 148, 79, 0.65);
+ color: white;
+    }
+    .textform-violet{
+        background-color: rgba(189, 124, 189, 0.631);
+ color: white;
+    }
